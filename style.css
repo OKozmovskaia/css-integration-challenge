@@ -48,6 +48,108 @@
   color: dimgray;
 }
 
+.interface-1 .grid-container p strong {
+  font-size: 1.1em;
+}
+
+.interface-3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  margin: 4em;
+}
+
+.interface-3 h1 {
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+}
+
+.interface-3 .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  width: 600px;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 1px 1px 3px grey;
+          box-shadow: 1px 1px 3px grey;
+}
+
+.interface-3 .card-container .card-side-img {
+  width: 200px;
+  background-image: url(./assets/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.interface-3 .card-container .card-side-author {
+  width: 400px;
+  font-size: 1em;
+  padding: 1.5em;
+}
+
+.interface-3 .card-container .card-side-author h3 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  -webkit-text-stroke: black 0.8px;
+  word-spacing: 3px;
+  padding-bottom: 0.5em;
+}
+
+.interface-3 .card-container .card-side-author p {
+  color: dimgray;
+  line-height: 1.2;
+  word-spacing: 3px;
+}
+
+.interface-3 .card-container .card-side-author .author-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 5em;
+}
+
+.interface-3 .card-container .card-side-author .author-holder img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.7em;
+}
+
+.interface-3 .card-container .card-side-author .author-holder h6 {
+  font-size: 0.8em;
+  -webkit-text-stroke: black 0.1px;
+}
+
+.interface-3 .card-container .card-side-author .author-holder p {
+  font-size: 0.8em;
+}
+
+.interface-3 .card-container .card-side-author .author-holder .icons {
+  color: dimgray;
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+.interface-3 .card-container .card-side-author .author-holder .icons i {
+  padding-left: 0.3em;
+}
+
 @media (max-width: 900px) {
   .interface-1 .grid-container {
     display: -ms-grid;
