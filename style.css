@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+* a {
+  text-decoration: none;
+}
+
 .interface-1 {
   font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -50,6 +54,100 @@
 
 .interface-1 .grid-container p strong {
   font-size: 1.1em;
+}
+
+.interface-2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 4em;
+}
+
+.interface-2 h1 {
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+}
+
+.interface-2 .report-container {
+  color: #fff;
+  background-color: #468ef1;
+  width: 320px;
+  border-radius: 2px;
+  border: 7px solid rgba(242, 242, 242, 0.9);
+  padding: 1.5em;
+}
+
+.interface-2 .report-container h6 {
+  font-size: 0.8em;
+}
+
+.interface-2 .report-container h2 {
+  font-size: 3em;
+  padding: 0.3em 0 0.3em 0;
+}
+
+.interface-2 .report-container p {
+  font-size: 0.7em;
+  border-bottom: 0.5px solid #99caff;
+  padding-bottom: 5px;
+}
+
+.interface-2 .report-container .diagram {
+  height: 130px;
+  background-image: url(./assets/graphi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.interface-2 .report-container table {
+  border-bottom: 1px solid #99caff;
+  border-collapse: collapse;
+  width: 260px;
+}
+
+.interface-2 .report-container table th {
+  font-size: 0.7em;
+  height: 30px;
+  vertical-align: center;
+  border-bottom: 1px solid #99caff;
+  text-align: left;
+}
+
+.interface-2 .report-container table th ~ th {
+  text-align: right;
+}
+
+.interface-2 .report-container table td {
+  font-size: 0.8em;
+  height: 35px;
+  vertical-align: center;
+  border-bottom: 1px solid #99caff;
+}
+
+.interface-2 .report-container table tr td {
+  text-align: left;
+}
+
+.interface-2 .report-container table tr td ~ td {
+  text-align: right;
+}
+
+.interface-2 .report-container a {
+  color: #fff;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px 0 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 0.8em;
+}
+
+.interface-2 .report-container a i {
+  padding-left: 1em;
 }
 
 .interface-3 {
